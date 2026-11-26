@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Design System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">NEXORA<span>.</span></a>
+
+    <nav>
+        <a href="#colors">Colors</a>
+        <a href="#typography">Typography</a>
+        <a href="#buttons">Buttons</a>
+        <a href="#components">Components</a>
+    </nav>
+
+    <button id="themeToggle" class="theme-btn">☀️ Theme</button>
+</header>
+
+<main class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+        <span class="tag">DESIGN SYSTEM / VERSION 1.0</span>
+        <h1>Design with <span>Consistency.</span></h1>
+        <p>
+            A collection of reusable UI components, colors,
+            typography and design standards for modern applications.
+        </p>
+        <a href="#components" class="primary-btn">Explore Components →</a>
+    </section>
+
+    <!-- Colors -->
+    <section class="section" id="colors">
+        <div class="section-heading">
+            <span class="tag">01 / FOUNDATION</span>
+            <h2>Color Palette</h2>
+            <p>Consistent colors for a beautiful user interface.</p>
+        </div>
+
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="swatch purple"></div>
+                <h3>Primary</h3>
+                <p>#8B5CF6</p>
+            </div>
+
+            <div class="color-card">
+                <div class="swatch pink"></div>
+                <h3>Secondary</h3>
+                <p>#EC4899</p>
+            </div>
+
+            <div class="color-card">
+                <div class="swatch green"></div>
+                <h3>Success</h3>
+                <p>#22C55E</p>
+            </div>
+
+            <div class="color-card">
+                <div class="swatch orange"></div>
+                <h3>Warning</h3>
+                <p>#F59E0B</p>
+            </div>
+
+            <div class="color-card">
+                <div class="swatch red"></div>
+                <h3>Danger</h3>
+                <p>#EF4444</p>
+            </div>
+
+            <div class="color-card">
+                <div class="swatch dark"></div>
+                <h3>Background</h3>
+                <p>#111827</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="section" id="typography">
+        <div class="section-heading">
+            <span class="tag">02 / FOUNDATION</span>
+            <h2>Typography</h2>
+            <p>Clear text hierarchy for better readability.</p>
+        </div>
+
+        <div class="type-box">
+            <h1>Heading One - 40px</h1>
+            <h2>Heading Two - 32px</h2>
+            <h3>Heading Three - 24px</h3>
+            <h4>Heading Four - 18px</h4>
+            <p>Body text - 16px. Design creates meaningful experiences.</p>
+            <small>Small text - 13px. Supporting information.</small>
+        </div>
+    </section>
+
+    <!-- Buttons -->
+    <section class="section" id="buttons">
+        <div class="section-heading">
+            <span class="tag">03 / COMPONENTS</span>
+            <h2>Buttons</h2>
+            <p>Reusable buttons for different actions.</p>
+        </div>
+
+        <div class="component-box button-list">
+            <button class="btn primary">Primary Button</button>
+            <button class="btn secondary">Secondary Button</button>
+            <button class="btn outline">Outline Button</button>
+            <button class="btn danger">Delete</button>
+            <button class="btn success">Success</button>
+            <button class="btn" disabled>Disabled</button>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="section" id="components">
+        <div class="section-heading">
+            <span class="tag">04 / COMPONENTS</span>
+            <h2>UI Components</h2>
+            <p>Reusable cards, forms and badges.</p>
+        </div>
+
+        <div class="component-grid">
+            <div class="component-box">
+                <h3>Profile Card</h3>
+                <div class="profile-icon">N</div>
+                <h3>Nexora Studio</h3>
+                <p>Creative Digital Agency</p>
+                <span class="badge">Active</span>
+            </div>
+
+            <div class="component-box">
+                <h3>Form Elements</h3>
+
+                <label for="userName">Full Name</label>
+                <input type="text" id="userName"
+                       placeholder="Enter your name">
+
+                <label for="userEmail">Email Address</label>
+                <input type="email" id="userEmail"
+                       placeholder="Enter your email">
+
+                <button class="btn primary full" id="formButton">
+                    Submit Form
+                </button>
+                <p id="formMessage" class="message"></p>
+            </div>
+
+            <div class="component-box">
+                <h3>Status Badges</h3>
+                <p><span class="badge">Active</span></p>
+                <p><span class="badge warning">Pending</span></p>
+                <p><span class="badge danger-badge">Inactive</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spacing -->
+    <section class="section">
+        <div class="section-heading">
+            <span class="tag">05 / FOUNDATION</span>
+            <h2>Spacing System</h2>
+            <p>A consistent spacing scale for layouts.</p>
+        </div>
+
+        <div class="component-box spacing-box">
+            <div>4px</div>
+            <div>8px</div>
+            <div>16px</div>
+            <div>24px</div>
+            <div>32px</div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <h2 class="logo">NEXORA<span>.</span></h2>
+    <p>© 2026 Nexora Design System. All rights reserved.</p>
+    <p>Designed for VINIX Internship - Task 7</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
